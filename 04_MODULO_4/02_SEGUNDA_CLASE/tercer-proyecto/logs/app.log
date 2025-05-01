@@ -1,0 +1,139 @@
+2025-04-30 20:37:32.708 [main] INFO  com.example.App - 
+Lista de números:
+2025-04-30 20:37:32.715 [main] INFO  com.example.App - 1 
+2025-04-30 20:37:32.717 [main] INFO  com.example.App - 2 
+2025-04-30 20:37:32.717 [main] INFO  com.example.App - 3 
+2025-04-30 20:37:32.718 [main] INFO  com.example.App - 4 
+2025-04-30 20:37:32.718 [main] INFO  com.example.App - 5 
+2025-04-30 20:37:32.718 [main] INFO  com.example.App - 
+2025-04-30 20:37:32.719 [main] INFO  com.example.App - El resultado de la suma de todos los elementos es: 15
+2025-04-30 20:38:45.674 [main] INFO  com.example.App - 
+Lista de números:
+2025-04-30 20:38:45.678 [main] INFO  com.example.App - 1 
+2025-04-30 20:38:45.680 [main] INFO  com.example.App - 2 
+2025-04-30 20:38:45.681 [main] INFO  com.example.App - 3 
+2025-04-30 20:38:45.681 [main] INFO  com.example.App - 4 
+2025-04-30 20:38:45.681 [main] INFO  com.example.App - 5 
+2025-04-30 20:38:45.682 [main] INFO  com.example.App - 
+2025-04-30 20:38:45.684 [main] INFO  com.example.App - El resultado de la suma de todos los elementos es: 15
+2025-04-30 20:46:30.340 [main] INFO  com.example.App - Iniciando la aplicación
+2025-04-30 20:46:30.343 [main] INFO  com.example.App - 
+Lista de números:
+2025-04-30 20:46:30.345 [main] INFO  com.example.App - 1 
+2025-04-30 20:46:30.348 [main] INFO  com.example.App - 2 
+2025-04-30 20:46:30.348 [main] INFO  com.example.App - 3 
+2025-04-30 20:46:30.348 [main] INFO  com.example.App - 4 
+2025-04-30 20:46:30.348 [main] INFO  com.example.App - 5 
+2025-04-30 20:46:30.349 [main] INFO  com.example.App - 
+2025-04-30 20:46:30.350 [main] INFO  com.example.App - El resultado de la suma de todos los elementos es: 15
+2025-04-30 20:46:30.351 [main] INFO  com.example.App - Aplicación finalizada exitosamente
+2025-04-30 21:00:27.752 [main] INFO  com.example.App - Iniciando la aplicación
+2025-04-30 21:00:27.757 [main] INFO  com.example.App - Bienvenido al programa de operaciones con números
+2025-04-30 21:00:27.758 [main] INFO  com.example.App - 
+=== MENÚ DE OPCIONES ===
+2025-04-30 21:00:27.758 [main] INFO  com.example.App - 1. Ingresar números manualmente
+2025-04-30 21:00:27.758 [main] INFO  com.example.App - 2. Generar números aleatorios
+2025-04-30 21:00:27.758 [main] INFO  com.example.App - Seleccione una opción (1 o 2): 
+2025-04-30 21:00:35.461 [main] INFO  com.example.App - 
+Ingrese la cantidad de números aleatorios a generar: 
+2025-04-30 21:00:45.804 [main] INFO  com.example.App - Ingrese el valor mínimo para los números aleatorios: 
+2025-04-30 21:00:51.868 [main] INFO  com.example.App - Ingrese el valor máximo para los números aleatorios: 
+2025-04-30 21:00:55.525 [main] INFO  com.example.App - Número aleatorio generado: 370
+2025-04-30 21:00:55.529 [main] INFO  com.example.App - Número aleatorio generado: 728
+2025-04-30 21:00:55.529 [main] INFO  com.example.App - Número aleatorio generado: 441
+2025-04-30 21:00:55.530 [main] INFO  com.example.App - Número aleatorio generado: 634
+2025-04-30 21:00:55.530 [main] INFO  com.example.App - Número aleatorio generado: 670
+2025-04-30 21:00:55.531 [main] INFO  com.example.App - Número aleatorio generado: 800
+2025-04-30 21:00:55.531 [main] INFO  com.example.App - Número aleatorio generado: 738
+2025-04-30 21:00:55.532 [main] INFO  com.example.App - Número aleatorio generado: 312
+2025-04-30 21:00:55.532 [main] INFO  com.example.App - Número aleatorio generado: 753
+2025-04-30 21:00:55.532 [main] INFO  com.example.App - Número aleatorio generado: 435
+2025-04-30 21:00:55.533 [main] INFO  com.example.App - Número aleatorio generado: 250
+2025-04-30 21:00:55.533 [main] INFO  com.example.App - Número aleatorio generado: 787
+2025-04-30 21:00:55.533 [main] INFO  com.example.App - Número aleatorio generado: 520
+2025-04-30 21:00:55.534 [main] INFO  com.example.App - Número aleatorio generado: 669
+2025-04-30 21:00:55.534 [main] INFO  com.example.App - Número aleatorio generado: 673
+2025-04-30 21:00:55.535 [main] INFO  com.example.App - 
+Lista de números:
+2025-04-30 21:00:55.536 [main] INFO  com.example.App - 370 
+2025-04-30 21:00:55.536 [main] INFO  com.example.App - 728 
+2025-04-30 21:00:55.537 [main] INFO  com.example.App - 441 
+2025-04-30 21:00:55.538 [main] INFO  com.example.App - 634 
+2025-04-30 21:00:55.539 [main] INFO  com.example.App - 670 
+2025-04-30 21:00:55.540 [main] INFO  com.example.App - 800 
+2025-04-30 21:00:55.540 [main] INFO  com.example.App - 738 
+2025-04-30 21:00:55.541 [main] INFO  com.example.App - 312 
+2025-04-30 21:00:55.542 [main] INFO  com.example.App - 753 
+2025-04-30 21:00:55.543 [main] INFO  com.example.App - 435 
+2025-04-30 21:00:55.544 [main] INFO  com.example.App - 250 
+2025-04-30 21:00:55.545 [main] INFO  com.example.App - 787 
+2025-04-30 21:00:55.546 [main] INFO  com.example.App - 520 
+2025-04-30 21:00:55.546 [main] INFO  com.example.App - 669 
+2025-04-30 21:00:55.547 [main] INFO  com.example.App - 673 
+2025-04-30 21:00:55.547 [main] INFO  com.example.App - 
+2025-04-30 21:00:55.551 [main] INFO  com.example.App - 
+=== RESULTADOS ===
+2025-04-30 21:00:55.552 [main] INFO  com.example.App - Suma total: 8780
+2025-04-30 21:00:55.553 [main] INFO  com.example.App - Promedio: {:.2f}
+2025-04-30 21:00:55.553 [main] INFO  com.example.App - Número mínimo: 250
+2025-04-30 21:00:55.554 [main] INFO  com.example.App - Número máximo: 800
+2025-04-30 21:00:55.554 [main] INFO  com.example.App - Aplicación finalizada exitosamente
+2025-04-30 21:00:55.554 [main] INFO  com.example.App - Recursos liberados
+2025-04-30 21:03:11.358 [main] INFO  com.example.App - Iniciando la aplicación
+2025-04-30 21:03:11.362 [main] INFO  com.example.App - Bienvenido al programa de operaciones con números
+2025-04-30 21:03:11.363 [main] INFO  com.example.App - 
+=== MENÚ DE OPCIONES ===
+2025-04-30 21:03:11.363 [main] INFO  com.example.App - 1. Ingresar números manualmente
+2025-04-30 21:03:11.364 [main] INFO  com.example.App - 2. Generar números aleatorios
+2025-04-30 21:03:11.364 [main] INFO  com.example.App - Seleccione una opción (1 o 2): 
+2025-04-30 21:03:16.053 [main] INFO  com.example.App - 
+Ingrese la cantidad de números aleatorios a generar: 
+2025-04-30 21:03:23.229 [main] INFO  com.example.App - Ingrese el valor mínimo para los números aleatorios: 
+2025-04-30 21:03:27.179 [main] INFO  com.example.App - Ingrese el valor máximo para los números aleatorios: 
+2025-04-30 21:03:29.212 [main] INFO  com.example.App - Número aleatorio generado: 130
+2025-04-30 21:03:29.215 [main] INFO  com.example.App - Número aleatorio generado: 819
+2025-04-30 21:03:29.216 [main] INFO  com.example.App - Número aleatorio generado: 693
+2025-04-30 21:03:29.216 [main] INFO  com.example.App - Número aleatorio generado: 868
+2025-04-30 21:03:29.216 [main] INFO  com.example.App - Número aleatorio generado: 690
+2025-04-30 21:03:29.217 [main] INFO  com.example.App - Número aleatorio generado: 175
+2025-04-30 21:03:29.217 [main] INFO  com.example.App - Número aleatorio generado: 929
+2025-04-30 21:03:29.218 [main] INFO  com.example.App - Número aleatorio generado: 421
+2025-04-30 21:03:29.218 [main] INFO  com.example.App - Número aleatorio generado: 727
+2025-04-30 21:03:29.218 [main] INFO  com.example.App - Número aleatorio generado: 187
+2025-04-30 21:03:29.218 [main] INFO  com.example.App - Número aleatorio generado: 883
+2025-04-30 21:03:29.219 [main] INFO  com.example.App - Número aleatorio generado: 636
+2025-04-30 21:03:29.219 [main] INFO  com.example.App - Número aleatorio generado: 857
+2025-04-30 21:03:29.219 [main] INFO  com.example.App - Número aleatorio generado: 377
+2025-04-30 21:03:29.219 [main] INFO  com.example.App - Número aleatorio generado: 934
+2025-04-30 21:03:29.220 [main] INFO  com.example.App - Número aleatorio generado: 605
+2025-04-30 21:03:29.220 [main] INFO  com.example.App - Número aleatorio generado: 279
+2025-04-30 21:03:29.220 [main] INFO  com.example.App - Número aleatorio generado: 463
+2025-04-30 21:03:29.220 [main] INFO  com.example.App - 
+Lista de números:
+2025-04-30 21:03:29.221 [main] INFO  com.example.App - 130 
+2025-04-30 21:03:29.222 [main] INFO  com.example.App - 819 
+2025-04-30 21:03:29.223 [main] INFO  com.example.App - 693 
+2025-04-30 21:03:29.225 [main] INFO  com.example.App - 868 
+2025-04-30 21:03:29.225 [main] INFO  com.example.App - 690 
+2025-04-30 21:03:29.226 [main] INFO  com.example.App - 175 
+2025-04-30 21:03:29.226 [main] INFO  com.example.App - 929 
+2025-04-30 21:03:29.227 [main] INFO  com.example.App - 421 
+2025-04-30 21:03:29.227 [main] INFO  com.example.App - 727 
+2025-04-30 21:03:29.228 [main] INFO  com.example.App - 187 
+2025-04-30 21:03:29.229 [main] INFO  com.example.App - 883 
+2025-04-30 21:03:29.230 [main] INFO  com.example.App - 636 
+2025-04-30 21:03:29.231 [main] INFO  com.example.App - 857 
+2025-04-30 21:03:29.233 [main] INFO  com.example.App - 377 
+2025-04-30 21:03:29.234 [main] INFO  com.example.App - 934 
+2025-04-30 21:03:29.234 [main] INFO  com.example.App - 605 
+2025-04-30 21:03:29.235 [main] INFO  com.example.App - 279 
+2025-04-30 21:03:29.236 [main] INFO  com.example.App - 463 
+2025-04-30 21:03:29.236 [main] INFO  com.example.App - 
+2025-04-30 21:03:29.246 [main] INFO  com.example.App - 
+=== RESULTADOS ===
+2025-04-30 21:03:29.247 [main] INFO  com.example.App - Suma total: 10673
+2025-04-30 21:03:29.248 [main] INFO  com.example.App - Promedio: 592,94
+2025-04-30 21:03:29.249 [main] INFO  com.example.App - Número mínimo: 130
+2025-04-30 21:03:29.250 [main] INFO  com.example.App - Número máximo: 934
+2025-04-30 21:03:29.250 [main] INFO  com.example.App - Aplicación finalizada exitosamente
+2025-04-30 21:03:29.251 [main] INFO  com.example.App - Recursos liberados

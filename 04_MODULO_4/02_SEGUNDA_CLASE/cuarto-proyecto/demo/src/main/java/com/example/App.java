@@ -82,6 +82,6 @@ public class App {
 
         ordenados.stream()
                 .limit(5)
-                .forEach(e -> System.out.println(e.getApellido() + " , " + e.getNombre()););
+                .forEach(e -> System.out.println(e.getApellido() + " , " + e.getNombre()));
     }
 }

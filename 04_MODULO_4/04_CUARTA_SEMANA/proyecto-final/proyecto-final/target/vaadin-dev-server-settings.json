@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "C:/Users/luisg/Downloads/java/proyecto-final/proyecto-final/./frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "C:/Users/luisg/Downloads/java/proyecto-final/proyecto-final/./frontend/generated/jar-resources",
+  "staticOutput": "C:/Users/luisg/Downloads/java/proyecto-final/proyecto-final/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "C:\\Users\\luisg\\Downloads\\java\\proyecto-final\\proyecto-final\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "C:\\Users\\luisg\\Downloads\\java\\proyecto-final\\proyecto-final\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "C:/Users/luisg/Downloads/java/proyecto-final/proyecto-final/target/dev-bundle/webapp",
+  "devBundleStatsOutput": "C:/Users/luisg/Downloads/java/proyecto-final/proyecto-final/target/dev-bundle/config",
+  "jarResourcesFolder": "C:/Users/luisg/Downloads/java/proyecto-final/proyecto-final/./frontend/generated/jar-resources",
+  "themeName": "",
+  "clientServiceWorkerSource": "C:\\Users\\luisg\\Downloads\\java\\proyecto-final\\proyecto-final\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}

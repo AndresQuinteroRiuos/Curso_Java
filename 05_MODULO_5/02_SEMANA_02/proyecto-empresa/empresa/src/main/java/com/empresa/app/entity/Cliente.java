@@ -43,8 +43,7 @@ public class Cliente {
     public Cliente() {
     }
 
-    public Cliente(Long id, String nombre, String email, String telefono) {
-        this.id = id;
+    public Cliente(String nombre, String email, String telefono) {
         this.nombre = nombre;
         this.email = email;
         this.telefono = telefono;

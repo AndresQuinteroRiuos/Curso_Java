@@ -34,4 +34,9 @@ public class ClienteService {
     public void eliminarPorId(Long id) {
         clienteRepository.deleteById(id); // DELETE FROM clientes WHERE id = ?
     }
+
+    public Cliente obtenerPorId(Long id) {
+        return clienteRepository.findById(id).orElse(null);
+    }
+
 }

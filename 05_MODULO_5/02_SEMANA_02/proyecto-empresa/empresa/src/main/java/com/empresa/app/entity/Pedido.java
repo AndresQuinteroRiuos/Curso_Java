@@ -3,15 +3,7 @@ package com.empresa.app.entity;
 import java.time.LocalDate;
 import java.util.List;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
-import javax.persistence.ManyToOne;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
@@ -32,7 +24,7 @@ public class Pedido {
 
     @ManyToMany
     @JoinTable(name = "pedido_producto", joinColumns = @JoinColumn(name = "pedido_id"), inverseJoinColumns = @JoinColumn(name = "producto_id"))
-    private List<Producto> Productos;
+    private List<Producto> productos;
 
     public Pedido() {
     }
@@ -64,6 +56,14 @@ public class Pedido {
 
     public void setCliente(Cliente cliente) {
         this.cliente = cliente;
+    }
+
+    public List<Producto> getProductos() {
+        return productos;
+    }
+
+    public void setProductos(List<Producto> productos) {
+        this.productos = productos;
     }
 
 }

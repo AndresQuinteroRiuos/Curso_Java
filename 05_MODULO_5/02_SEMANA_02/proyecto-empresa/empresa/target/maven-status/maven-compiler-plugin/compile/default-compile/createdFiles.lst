@@ -1,0 +1,13 @@
+com\empresa\app\controller\ClienteController.class
+com\empresa\app\repository\ClienteRepository.class
+com\empresa\App.class
+com\empresa\app\repository\PedidoRepository.class
+com\empresa\app\repository\ProductoRepository.class
+com\empresa\app\controller\PedidoController.class
+com\empresa\app\service\PedidoService.class
+com\empresa\app\controller\ProductoController.class
+com\empresa\app\service\ProductoService.class
+com\empresa\app\service\ClienteService.class
+com\empresa\app\entity\Cliente.class
+com\empresa\app\entity\Producto.class
+com\empresa\app\entity\Pedido.class

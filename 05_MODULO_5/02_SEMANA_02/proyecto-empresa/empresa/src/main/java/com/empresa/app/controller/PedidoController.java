@@ -1,21 +1,15 @@
 package com.empresa.app.controller;
 
-import com.empresa.app.entity.Pedido;
 import com.empresa.app.entity.Cliente;
-
+import com.empresa.app.entity.Pedido;
 import com.empresa.app.service.ClienteService;
 import com.empresa.app.service.PedidoService;
-
-import java.util.List;
-
+import javax.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/pedidos")
@@ -39,7 +33,7 @@ public class PedidoController {
     }
 
     @PostMapping
-    public ResponseEntity<Pedido> crear(@RequestBody Pedido pedido) {
+    public ResponseEntity<Pedido> crear(@RequestBody @Valid Pedido pedido) {
         Pedido creado = pedidoService.guardar(pedido);
         return ResponseEntity.status(HttpStatus.CREATED).body(creado);
     }
@@ -55,6 +49,12 @@ public class PedidoController {
             return ResponseEntity.noContent().build();
         }
         return ResponseEntity.ok(pedidos);
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> eliminar(@PathVariable Long id) {
+        pedidoService.eliminarPorId(id);
+        return ResponseEntity.noContent().build();
     }
 
 }

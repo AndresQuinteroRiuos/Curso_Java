@@ -1,12 +1,11 @@
 package com.empresa.app.service;
 
-import java.util.List;
-
+import com.empresa.app.entity.Cliente;
+import com.empresa.app.repository.ClienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.empresa.app.entity.Cliente;
-import com.empresa.app.repository.ClienteRepository;
+import java.util.List;
 
 @Service
 public class ClienteService {
@@ -15,28 +14,26 @@ public class ClienteService {
     private ClienteRepository clienteRepository;
 
     public List<Cliente> obtenerTodos() {
-        return clienteRepository.findAll(); // SELECT * FROM clientes
+        return clienteRepository.findAll();
     }
 
     public Cliente guardar(Cliente cliente) {
-        return clienteRepository.save(cliente); // INSERT INTO clientes (nombre, email, telefono) VALUES (?, ?, ?)
+        return clienteRepository.save(cliente);
     }
 
     public List<Cliente> buscarPorNombre(String nombre) {
-        return clienteRepository.findByNombre(nombre); // SELECT * FROM clientes WHERE nombre = ?
+        return clienteRepository.findByNombre(nombre);
     }
 
-    public List<Cliente> buscarByEmail(String fragmento) {
-        return clienteRepository.findByEmailContaining(fragmento); // SELECT * FROM clientes WHERE email LIKE
-                                                                   // CONCAT('%', ?, '%')
+    public List<Cliente> buscarPorEmail(String fragmento) {
+        return clienteRepository.findByEmailContaining(fragmento);
     }
 
     public void eliminarPorId(Long id) {
-        clienteRepository.deleteById(id); // DELETE FROM clientes WHERE id = ?
+        clienteRepository.deleteById(id);
     }
 
     public Cliente obtenerPorId(Long id) {
         return clienteRepository.findById(id).orElse(null);
     }
-
 }

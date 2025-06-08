@@ -1,18 +1,18 @@
 package com.empresa.app.repository;
 
-import java.util.List;
-
+import com.empresa.app.entity.Producto;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.empresa.app.entity.Producto;
+import java.util.List;
 
 public interface ProductoRepository extends JpaRepository<Producto, Long> {
 
+    // Buscar por nombre exacto
     List<Producto> findByNombre(String nombre);
 
+    // Buscar productos cuyo nombre contenga una cadena (ej: búsqueda parcial)
     List<Producto> findByNombreContainingIgnoreCase(String nombre);
 
-    List<Producto> findByNombreBetween(Double min, Double max);
-
+    // Buscar productos por rango de precio
     List<Producto> findByPrecioBetween(Double min, Double max);
 }

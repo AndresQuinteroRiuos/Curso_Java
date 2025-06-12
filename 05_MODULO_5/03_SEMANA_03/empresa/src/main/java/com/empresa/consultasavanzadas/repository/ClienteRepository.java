@@ -1,5 +1,9 @@
 package com.empresa.consultasavanzadas.repository;
 
-public class ClienteRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.empresa.consultasavanzadas.domain.entity.Cliente;
+
+public interface ClienteRepository extends JpaRepository<Cliente, Long> {
 
 }

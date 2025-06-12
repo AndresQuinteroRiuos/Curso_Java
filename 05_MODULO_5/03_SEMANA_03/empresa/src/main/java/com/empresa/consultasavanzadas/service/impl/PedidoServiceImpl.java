@@ -2,26 +2,26 @@ package com.empresa.consultasavanzadas.service.impl;
 
 import org.springframework.stereotype.Service;
 import org.springframework.data.domain.PageRequest;
+
 import jakarta.persistence.*;
 import jakarta.persistence.criteria.*;
 
 import com.empresa.consultasavanzadas.service.PedidoService;
 import com.empresa.consultasavanzadas.domain.entity.Pedido;
 import com.empresa.consultasavanzadas.domain.filter.PedidoFiltro;
-import com.empresa.consultasavanzadas.repository.PedidoRepotitory;
+import com.empresa.consultasavanzadas.repository.PedidoRepository;
 import lombok.RequiredArgsConstructor;
 
 import java.util.List;
 import java.util.ArrayList;
 import java.time.LocalDate;
-import java.time.LocalTime;
 
 @Service
 @RequiredArgsConstructor
 public class PedidoServiceImpl implements PedidoService {
 
-    private final PedidoRepotitory repo;
-    private static EntityManager em;
+    private final PedidoRepository repo;
+    private final EntityManager em;
 
     @Override
     public List<Pedido> obtenerUltimoPedidos() {
@@ -73,4 +73,13 @@ public class PedidoServiceImpl implements PedidoService {
         return em.createQuery(cq).getResultList();
 
     }
+
+    /*
+     * @Override
+     * public List<Pedido> obtenerPedidosOrdenados(String campo, String direccion) {
+     * Sort sort = direccion.equalsIgnoreCase("DESC") ? Sort.by(campo).descending()
+     * : Sort.by(campo).ascending();
+     * return repo.findAll(sort);
+     * }
+     */
 }

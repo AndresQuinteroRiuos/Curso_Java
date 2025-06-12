@@ -1,0 +1,15 @@
+G:\Mi unidad\U_DEV_SENIOR\Java_Curso\Java_Clases_Practicas_Nuevo\05_MODULO_5\03_SEMANA_03\empresa\src\main\java\com\empresa\consultasavanzadas\controller\PedidoController.java
+G:\Mi unidad\U_DEV_SENIOR\Java_Curso\Java_Clases_Practicas_Nuevo\05_MODULO_5\03_SEMANA_03\empresa\src\main\java\com\empresa\consultasavanzadas\domain\entity\Producto.java
+G:\Mi unidad\U_DEV_SENIOR\Java_Curso\Java_Clases_Practicas_Nuevo\05_MODULO_5\03_SEMANA_03\empresa\src\main\java\com\empresa\consultasavanzadas\service\PedidoService.java
+G:\Mi unidad\U_DEV_SENIOR\Java_Curso\Java_Clases_Practicas_Nuevo\05_MODULO_5\03_SEMANA_03\empresa\src\main\java\com\empresa\consultasavanzadas\config\DatabaseConfig.java
+G:\Mi unidad\U_DEV_SENIOR\Java_Curso\Java_Clases_Practicas_Nuevo\05_MODULO_5\03_SEMANA_03\empresa\src\main\java\com\empresa\consultasavanzadas\repository\PedidoRepository.java
+G:\Mi unidad\U_DEV_SENIOR\Java_Curso\Java_Clases_Practicas_Nuevo\05_MODULO_5\03_SEMANA_03\empresa\src\main\java\com\empresa\consultasavanzadas\repository\ClienteRepository.java
+G:\Mi unidad\U_DEV_SENIOR\Java_Curso\Java_Clases_Practicas_Nuevo\05_MODULO_5\03_SEMANA_03\empresa\src\main\java\com\empresa\consultasavanzadas\repository\ProductoRepository.java
+G:\Mi unidad\U_DEV_SENIOR\Java_Curso\Java_Clases_Practicas_Nuevo\05_MODULO_5\03_SEMANA_03\empresa\src\main\java\com\empresa\consultasavanzadas\domain\entity\Cliente.java
+G:\Mi unidad\U_DEV_SENIOR\Java_Curso\Java_Clases_Practicas_Nuevo\05_MODULO_5\03_SEMANA_03\empresa\src\main\java\com\empresa\consultasavanzadas\domain\entity\DetallePedido.java
+G:\Mi unidad\U_DEV_SENIOR\Java_Curso\Java_Clases_Practicas_Nuevo\05_MODULO_5\03_SEMANA_03\empresa\src\main\java\com\empresa\consultasavanzadas\service\impl\PedidoServiceImpl.java
+G:\Mi unidad\U_DEV_SENIOR\Java_Curso\Java_Clases_Practicas_Nuevo\05_MODULO_5\03_SEMANA_03\empresa\src\main\java\com\empresa\consultasavanzadas\domain\filter\PedidoFiltro.java
+G:\Mi unidad\U_DEV_SENIOR\Java_Curso\Java_Clases_Practicas_Nuevo\05_MODULO_5\03_SEMANA_03\empresa\src\main\java\com\empresa\consultasavanzadas\controller\ClienteController.java
+G:\Mi unidad\U_DEV_SENIOR\Java_Curso\Java_Clases_Practicas_Nuevo\05_MODULO_5\03_SEMANA_03\empresa\src\main\java\com\empresa\consultasavanzadas\controller\ProductoController.java
+G:\Mi unidad\U_DEV_SENIOR\Java_Curso\Java_Clases_Practicas_Nuevo\05_MODULO_5\03_SEMANA_03\empresa\src\main\java\com\empresa\consultasavanzadas\Application.java
+G:\Mi unidad\U_DEV_SENIOR\Java_Curso\Java_Clases_Practicas_Nuevo\05_MODULO_5\03_SEMANA_03\empresa\src\main\java\com\empresa\consultasavanzadas\domain\entity\Pedido.java

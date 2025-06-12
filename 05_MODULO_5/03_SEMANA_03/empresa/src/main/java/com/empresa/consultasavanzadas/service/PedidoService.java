@@ -18,5 +18,5 @@ public interface PedidoService {
 
     List<Pedido> obtenerTodosLosPedidos();
 
-    List<Pedido> obtenerPedidosOrdenados(String campo, String direccion);
+    //List<Pedido> obtenerPedidosOrdenados(String campo, String direccion);
 }

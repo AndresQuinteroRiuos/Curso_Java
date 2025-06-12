@@ -1,0 +1,15 @@
+com\empresa\consultasavanzadas\repository\PedidoRepository.class
+com\empresa\consultasavanzadas\domain\entity\Cliente.class
+com\empresa\consultasavanzadas\domain\filter\PedidoFiltro.class
+com\empresa\consultasavanzadas\Application.class
+com\empresa\consultasavanzadas\config\DatabaseConfig.class
+com\empresa\consultasavanzadas\controller\PedidoController.class
+com\empresa\consultasavanzadas\service\PedidoService.class
+com\empresa\consultasavanzadas\domain\entity\Producto.class
+com\empresa\consultasavanzadas\service\impl\PedidoServiceImpl.class
+com\empresa\consultasavanzadas\controller\ClienteController.class
+com\empresa\consultasavanzadas\repository\ProductoRepository.class
+com\empresa\consultasavanzadas\controller\ProductoController.class
+com\empresa\consultasavanzadas\repository\ClienteRepository.class
+com\empresa\consultasavanzadas\domain\entity\Pedido.class
+com\empresa\consultasavanzadas\domain\entity\DetallePedido.class

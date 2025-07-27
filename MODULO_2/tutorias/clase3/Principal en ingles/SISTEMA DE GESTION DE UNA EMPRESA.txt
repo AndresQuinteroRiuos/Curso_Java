@@ -1,0 +1,25 @@
+SISTEMA DE GESTION DE UNA EMPRESA
+1. APLICAR HERENCIA (superclase empleado y subclases)
+2. usar polimorfismo para ejecutar comportamientos personalizados
+3. utilizar interfaces modelar habilidades comunes entre los empleados
+
+abstracta empleado:
+IdTrabajador, nombre, salario, horario, mostrar informacion, trabajar
+
+clase hija va a tener sus atributos por aparte.
+
+Reportable
+GenerarReporte()
+GuardarEmpleado()
+ModificarEmpleado()
+BorrarEmpleado()
+bbuscarEmpleadorPorId()
+MostrarTodos
+
+las clases hijas implementan interfaz reportable
+
+Empresa/
+-Entidad->Superclase y Clases
+-Servicio->Reportable interfazAlFinal
+-ServicioImpl->
+-Prinsipal->ClasePrinsipal Main

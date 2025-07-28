@@ -1,0 +1,7 @@
+ @@@@@@@
+@| O O |@
+(|  ^  |)
+ | [_] |
+ +-----+
+
+ Escriba un archivo llamado ImprimirCara que imprima una cara usando caracteres de texto.
